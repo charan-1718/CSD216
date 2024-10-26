@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 33, 33);
+}
+.navbar {
+    height: 100px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 85px;
+    width:100px;
+
+}
+
+.logo {
+    background-image: url(b.png);
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+
+.border {
+    border : 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 2.5px solid rgb(161, 245, 34);
+}
+
+.evergreen {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(156, 212, 100);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.topic {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.login {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signin {
+    color: rgb(66, 33, 33);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.heroimage {
+    padding-top: 300px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    height: 600px;
+    width: auto;
+    background-image: url(f.jpg);
+    background-size: cover;
+   
+}
+
+.word {
+   height: 800px;
+   width: 600px;
+   background-color: transparent;
+   font-size: 60px;
+   color:   rgb(66, 33, 33);
+   font-weight: 900;
+}
+
+.info {
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: -200px;
+    margin-left: -20px;
+    background-color: wheat;
+}
+
+.element {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(66, 33, 33);
+}
+
+.highlight {
+    height: 150px;
+    background-color: wheat ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.box1 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box2 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.box3 {
+    font-size: 25px;
+    height: 100px;
+    width: 300px;
+   background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.shop:hover{
+    box-shadow: 4px 4px 5px black;
+    transition: 0.7s;
+    scale: 1.08;
+}
+.sm{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+}
+.sm:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm1{
+    margin-left: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+    float: left;
+}
+.sm2{
+    margin-left: 1000px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin-top: -35px;
+    float: left;
+}
+.sm1:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}
+.sm2:hover{
+    background-color: lime;
+    color: azure;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px black;
+    transition: 1.5s;
+}

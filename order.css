@@ -1,0 +1,18 @@
+body{
+    background-image:url(add.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:rgb(125, 255, 177);
+}
+button{
+    background-color:rgb(125, 255, 177);
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 750px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}

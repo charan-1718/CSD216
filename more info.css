@@ -1,0 +1,50 @@
+body{
+    background-image: url(farmer\ back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul li{
+    margin-top: 4px;
+    background-color: #1d1d1d;
+    color: azure;
+    list-style-type: none;
+    border:2px solid white;
+    text-align: center;
+    border-radius: 15px;
+    width: 120px;
+    height: 0px;
+    padding-top: 9px;
+    margin-left:0px;
+    margin-top:50px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+ul li:hover{
+    border: 2px solid cyan;
+    background-color: rgb(47, 94, 248);
+    opacity: 1;
+    width: 120px;
+    transition: 1s;
+    color: white;
+    box-shadow: 3px 3px 4px #000000;
+    text-shadow:2px 2px 4px #000000;
+}
+
+
+#D1{
+    background-color: yellow;
+}
+
+  /* Hidden text */
+.hidden-text {
+    position: absolute;
+    left: 10px;
+    margin-top: 100px;
+    color: #fff;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease;
+}
+a{
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+}
